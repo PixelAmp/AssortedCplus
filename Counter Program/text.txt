@@ -1,0 +1,119 @@
+CDT Downloads
+All downloads are provided under the terms and conditions of the Eclipse Foundation Software User Agreement unless otherwise specified.
+
+The CDT can either be installed as part of the Eclipse C/C++ IDE packaged zip file or installed into an existing Eclipse using the "Install New Software..." dialog and entering the p2 repository URLs listed below.
+
+CDT also provides its debugger as a stand-alone RCP application which can be downloaded and installed on its own. You can find more information about the Stand-alone Debugger on the Wiki.
+
+CDT 9.0.0 for Eclipse Neon
+Eclipse package: Eclipse C/C++ IDE for Neon.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/9.0
+
+The git repos have been tagged with the CDT_9_0_0 tag. You can download the source from the web interface.
+
+Archived p2 repos:
+
+cdt-9.0.0.zip
+CDT also provides its debugger as a stand-alone RCP application which can be downloaded and installed on its own, from: http://download.eclipse.org/tools/cdt/releases/9.0/r/rcp
+
+The RCP stand-alone debugger has its own p2 software repository to be used within the RCP itself to upgrade it: http://download.eclipse.org/tools/cdt/releases/9.0/r/rcp-repository
+
+CDT 8.8.1 for Eclipse Mars
+Eclipse package: Eclipse C/C++ IDE for Mars.2.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/8.8.1
+
+The git repos have been tagged with the CDT_8_8_1 tag. You can download the source from the web interface.
+
+Archived p2 repos:
+
+cdt-8.8.1.zip
+cdt-8.8.0.zip
+cdt-8.7.0.zip
+CDT also provides its debugger as a stand-alone RCP application which can be downloaded and installed on its own, from: http://download.eclipse.org/tools/cdt/releases/8.8.1/r/rcp
+
+The RCP stand-alone debugger has its own p2 software repository to be used within the RCP itself to upgrade it: http://download.eclipse.org/tools/cdt/releases/8.8.1/r/rcp-repository
+
+CDT 8.6.0 for Eclipse Luna
+Eclipse package: Eclipse C/C++ IDE for Luna SR2.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/8.6
+
+The git repos have been tagged with the CDT_8_6_0 tag. You can download the source from the web interface.
+
+Archived p2 repos:
+
+cdt-8.6.0.zip
+cdt-8.5.0.zip
+cdt-8.4.0.zip
+CDT 8.3.0 for Eclipse Kepler
+Eclipse package: Eclipse C/C++ IDE for Kepler SR2.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/kepler
+
+The git repos have been tagged with the CDT_8_3_0 tag. You can download the source from the web interface.
+
+Archived p2 repos:
+
+cdt-master-8.3.0.zip
+cdt-master-8.2.1.zip
+cdt-master-8.2.0.zip
+CDT 8.1.2 for Eclipse Juno
+Eclipse package: Eclipse C/C++ IDE for Juno SR2.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/juno
+
+The git repos have been tagged with the CDT_8_1_2 tag. You can download the source from the web interface.
+
+Archived p2 repos:
+
+cdt-master-8.1.2.zip
+cdt-master-8.1.1.zip
+cdt-master-8.1.0.zip
+CDT 8.0.2 for Eclipse Indigo
+Eclipse package: Eclipse C/C++ IDE Indigo SR2.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/indigo
+
+The git repos have been tagged with the CDT_8_0_2 tag. You can download the source from the web interface.
+
+Archived p2 repos:
+
+cdt-master-8.0.2.zip
+cdt-master-8.0.1.zip
+cdt-master-8.0.0.zip
+CDT 7.0.2 for Eclipse Helios
+Eclipse package: Eclipse C/C++ IDE Helios SR2.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/helios
+
+Archived p2 repos:
+
+cdt-master-7.0.2.zip
+cdt-master-7.0.1.zip
+cdt-master-7.0.0.zip
+CDT 6.0.2 for Eclipse Galileo
+Eclipse package: Eclipse C/C++ IDE Galileo SR2.
+
+p2 software repository: http://download.eclipse.org/tools/cdt/releases/galileo
+
+Archived p2 repos:
+
+cdt-master-6.0.2.zip
+cdt-master-6.0.1.zip
+cdt-master-6.0.0.zip
+Development Builds
+Development builds of the Eclipse C/C++ IDE can be found on the Eclipse Downloads page by clicking on the Development Builds tab.
+
+Bleeding edge continuous builds are available from the cdt-master Hudson build page and the p2 software repository: http://download.eclipse.org/tools/cdt/builds/master/nightly
+
+Milestones p2 software repository: http://download.eclipse.org/tools/cdt/builds/mars/milestones
+
+Some older builds are available in the old CDT Nightly Build page.
+
+Additional Distributions
+The CDT can be installed as part of many commercial products or from the following open source distributions.
+
+Linux
+Most major Linux distributions include packages for Eclipse and the CDT. Check your package manager for availability.

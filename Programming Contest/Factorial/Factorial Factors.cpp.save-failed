@@ -1,0 +1,124 @@
+//Southern California Regional of the ACM International Collegiate Programming Contest
+//Factorial Factors
+
+#include <iostream>
+#include <vector>
+#include <fstream>
+using namespace std;
+
+bool isPrime(int num)//checks if the number is prime
+{
+    if (num == 4) //4 returns false  positive for some reason
+    {
+        return false;
+    }
+
+    int div = 2;
+
+    while (div < (num/2)) //while the count is less than half of passed number
+    {
+        if (!(num%div)) //as soon as a factor is found, return false
+        {
+            return false;
+        }
+
+        div++;
+    }
+
+    return true; //if no factor is found
+}
+
+int factors(int OGNUM)
+{
+  int div = 2; //number being used to divide
+  int count = 0;//count how many factors have been found
+
+  if (isPrime(OGNUM))
+  {
+      return 1; //returns 1 if the number is prime
+  }
+
+  while (!(isPrime(OGNUM)) && div <= (OGNUM+1))
+    {
+        while(OGNUM%div == 0)//while the number is divisible by the factor keep doing it
+        {
+            //cout << "Factor " << div << endl;
+            OGNUM = (OGNUM/div);
+            count++;
+        }
+        div++;//increments the factor test number
+    }
+
+    if ((div = OGNUM) && (div != 1))
+    {
+        //cout << "factor " << div << endl;
+        count++;
+    }
+
+    //cout << "Number of factors is " << count << endl;
+    return count;
+}
+
+int tori(int NUM)
+{
+    int count = 0;
+    int fac = 2;
+
+    while(fac <= NUM) //counts all the way up to the number
+    {
+        if((fac%100000) == 0)//progress bar when the number is REALLY big
+        {
+            cout << fac << endl;
+        }
+
+        count += factors(fac); //passes current position to the function to find out haw many factors that number has
+        fac++;//increment number as the loop resets
+    }
+
+    //cout << "Maximum number of factors is " << count;
+    return count; //returns result
+}
+
+void readDoc()
+{
+    ifstream data;
+    string fileName;//user inputed file name
+    int hold = 0;
+
+    cout << "Input\t\tOutput" <<endl; //formating for output
+
+
+    ifstream text;
+    text.open("input.txt");
+
+    while (text >> hold)
+        {
+            //cout << hold << endl << endl;
+
+            cout << hold << "\t\t" << tori(hold) << endl;
+        }
+
+
+    data.close();
+}
+
+
+int main()
+{
+    readDoc();
+    //cout << tori(2) << endl;
+}
+
+/*
+Sample Input    Sample Output
+2               1
+1000000         3626619
+1996            5957
+5               5
+8               11
+123456          426566
+*/
+
+
+
+

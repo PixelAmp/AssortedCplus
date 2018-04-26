@@ -1,0 +1,12 @@
+1       3328
+2       3170
+3       3268
+4       3307
+5       3329
+6       3291
+7       3237
+8       3278
+9       3288
+0       3262
+
+generated from a large amount of numbers of pi

@@ -1,0 +1,16 @@
+To Music:
+	-user Input
+	-file input
+	-output to file
+	-output to screen
+To Text:
+	-user Input
+	-file input
+	-output to file
+	-output to screen
+
+Overall
+	-separate files, all one program
+	-Password system
+	-testing
+	-send to band kids

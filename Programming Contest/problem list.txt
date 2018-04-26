@@ -1,0 +1,14 @@
+prob1 == telephone book alphabetization
+prob2 == factor factorial
+prob3 == word transformation
+prob4 == cribbage hand scoring
+
+
+#include <iostream>
+#include <iomanip>
+#include <sstream>
+#include <string>
+#include <vector>
+#include<math.h>
+#include<queue>
+using namespace std;

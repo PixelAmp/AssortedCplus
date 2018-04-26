@@ -1,0 +1,28 @@
+e       152895
+t       95875
+a       95016
+o       91432
+h       83145
+n       79254
+r       76269
+s       75899
+i       67078
+d       64165
+l       51378
+w       30178
+u       29647
+m       27255
+g       25647
+y       24618
+f       24283
+c       21108
+b       18259
+p       13560
+k       13662
+v       8603
+q       944
+j       738
+z       599
+x       588
+original order: etaohnrsidlwumgyfcbpkvqjzx
+NOTE notation:  zjvpcymwdsnoteahrilugfbkqx
